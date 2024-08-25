@@ -1,0 +1,130 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: whitesmoke;
+}
+h1{
+    font-size: 50px;
+}
+.orange-color{
+    color: orange;
+}
+.blue1-color{
+    color: white;
+    font-size: 17px;
+    background-color:rgb(29, 29, 133);
+}
+.blue1-color:hover{
+    color: white;
+    font-size: 17px;
+    background-color:rgb(7, 134, 124);
+}
+.green-color{
+    color: green;
+}
+.ass-color{
+    color: rgb(105, 109, 105);
+}
+.black1-color{
+    color: rgb(105, 109, 105);
+    
+    size:0px;
+    font-size: 18px;
+}
+.black1-color:hover{
+    color: white;
+    font-size: 17px;
+    background-color:rgb(94, 172, 165);
+    size:0px;
+    font-size: 18px;
+}
+
+
+
+.half-width7{
+    width: 50%;
+    padding: 40px;
+}
+
+
+.ok{
+    background-color: whitesmoke;
+
+
+}
+
+.left-experience7, .right-experience7{
+    width: 40%;
+    box-shadow: 0px 30px 40px -25px rgb(49, 48, 48);
+    padding:5px 20px 20px 20px;
+    border-radius: 5px;
+    margin: 0px 50px;
+    background-color: white;
+
+}
+
+.experience-section7{
+   
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+
+@media screen and (max-width:600px) {
+    .flexible-container7{
+        flex-direction: column;
+    }
+    
+    .half-width7{
+        width: 85%;
+        padding: 20px;
+        margin: 0 auto;
+    }
+    .half-width7 img{
+        width: 85%;
+    }
+    .half-width7 h1{
+        font-size: 40px;
+        text-align: center;
+    }
+  .half-width7 .left-experience7{
+background-color: red;
+  }
+    .left-experience7 {
+        margin-bottom: 50px;
+       
+    }
+    .left-experience7, .right-experience7{
+        width: 80% !important;
+    }
+    .left-experience7 h1, .right-experience7 h1{
+        font-size: 30px;
+    }
+    .left-experience7 h3, .right-experience7 h3{
+        text-align: center;
+    }
+    
+
+
+    
+    
+
+}
+.message
+{
+    margin: 5px 0;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: var(--red);
+    color: var(--white);
+    font-size: 17px;
+    
+    
+    color: red;
+
+}
+.half-width7 left-experience7{
+background-color: red;
+}

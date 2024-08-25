@@ -1,0 +1,83 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+.orange-color{
+    color: orange;
+}
+.blue-color{
+    color: blue;
+}
+.green-color{
+    color: green;
+}
+
+
+.half-width7{
+    width: 50%;
+    padding: 40px;
+}
+
+
+.left-experience7 h1, .right-experience7 h1{
+    font-size: 35px;
+    margin-top: 0;
+}
+
+.left-experience7, .right-experience7{
+    width: 40%;
+    /*box-shadow: rgba(0, 0, 0, 0.19) 10px 20px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;*/
+    box-shadow: 0px 30px 40px -25px rgb(49, 48, 48);
+    padding:5px 20px 20px 20px;
+    border-radius: 5px;
+    margin: 0px 50px;
+}
+
+.experience-section7{
+   
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+
+@media screen and (max-width:600px) {
+    .flexible-container7{
+        flex-direction: column;
+    }
+    
+    .half-width7{
+        width: 85%;
+        padding: 20px;
+        margin: 0 auto;
+    }
+    .half-width7 img{
+        width: 85%;
+    }
+    .half-width7 h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    .left-experience7 {
+        margin-bottom: 50px;
+    }
+    .left-experience7, .right-experience7{
+        width: 80% !important;
+    }
+    .left-experience7 h1, .right-experience7 h1{
+        font-size: 30px;
+    }
+    .left-experience7 h3, .right-experience7 h3{
+        text-align: center;
+    }
+    
+
+
+    
+    
+
+}

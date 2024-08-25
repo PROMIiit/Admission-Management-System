@@ -1,0 +1,131 @@
+body{
+    /* background-color: red; */
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+
+}
+/* h1{
+    font-size: 50px;
+} */
+.orange-color{
+    color: orange;
+}
+.koyri-color{
+    color: rgb(19, 18, 18);
+}
+.blue-color{
+    color: white;
+    background-color: blue;
+}
+.space{
+    padding: auto;
+}
+.green-color{
+    color: green;
+}
+.as-color{
+    color: rgb(169, 175, 169);
+}
+.flexible-container1{
+    width: 100%;
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: space-between;
+}
+.flexible-container1 p{
+    text-align: justify;
+}
+
+.half-width1{
+    width: 50%;
+    padding: 40px;
+}
+
+
+
+
+
+
+.left-experience1 h1, .right-experience1 h1{
+    font-size: 35px;
+    margin-top: 0;
+}
+
+
+.left-experience1{
+    border-left: 5px solid;
+    border-image: linear-gradient(rgb(247, 241, 247), rgb(154, 8, 184));    
+    border-image-slice: 1;
+
+}
+.right-experience1 {
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+.left-experience1, .right-experience1{
+    width: 40%;
+    /*box-shadow: rgba(0, 0, 0, 0.19) 10px 20px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;*/
+    box-shadow: 0px 30px 40px -25px rgba(0, 0, 0, 1);
+    padding:5px 20px 20px 20px;
+    border-radius: 5px;
+    margin: 0px 50px;
+}
+
+.experience-section1{
+    background-image: url('images/exp-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+@media screen and (max-width:600px) {
+    .flexible-container1{
+        flex-direction: column;
+    }
+    .dream-big{
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+    .half-width1{
+        width: 85%;
+        padding: 20px;
+        margin: 0 auto;
+    }
+    .half-width1 img{
+        width: 85%;
+    }
+    .half-width1 h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    
+    .left-experience1 {
+        margin-bottom: 50px;
+    }
+    .left-experience1, .right-experience1{
+        width: 80% !important;
+    }
+    .left-experience1 h1, .right-experience1 h1{
+        font-size: 30px;
+    }
+    .left-experience1 h3, .right-experience1 h3{
+        text-align: center;
+    }
+
+    hr.rounded1{
+        /* border-top: 4px solid #bbb;
+        border-radius: 50px; */
+        height: 1px;
+        width: 20px;
+        background: #b5b5b5;
+        
+      }
+
+
+    
+    
+
+}

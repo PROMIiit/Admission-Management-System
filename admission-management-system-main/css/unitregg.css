@@ -1,0 +1,151 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+    background-color: #52479b;
+  }
+   */
+   header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.15)),
+    url("../images/shahidminar.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  nav {
+    width: 100%;
+    height: 25vh;
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+  }
+  
+  nav .logo {
+    width: 25%;
+    text-align: center
+    /*background: red;*/
+  }
+  nav .logotext{
+  position: absolute;
+  left: 250px;
+  top: 70px;
+  }
+  nav .menu {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 100px;
+  }
+  
+  nav .menu a {
+    width: 25%;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-left: 20px;;
+  
+  }
+  
+  nav .menu a:first-child {
+    color: black;
+  }
+
+  nav .menu a:hover {
+    color: blue;
+    transition: all 0.4s ease 0s;
+  }
+  
+
+
+  
+  main {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+  
+ 
+  .home p {
+    font-size: 25px;
+    word-spacing: 2px;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 1px black;
+  }
+  
+/* .home a {
+    padding: 40px 100px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all 0.5s ease;
+  } */
+
+  .home a{
+    border-radius: 20px;
+    display: inline-block;
+   font-size:18px;
+   font-weight:bold;
+   padding: 40px 20px;
+   /* text-transform:uppercase; */
+   text-decoration:none;
+   height:auto;
+   width:auto;
+   text-align:center;
+   background-color:#fff;
+   color: #52479b;
+   opacity: .5;
+  }
+
+  
+
+  .home input{
+    background-color: #fff;
+  }
+  
+  /* .home  .btnone {
+    background: #fa1b1b;
+    color: #000;
+    height: 500px;
+    width: 50px;
+  } */
+  
+  .btnone:hover {
+    /* background: #00b894; */
+    background-color: rgb(17,84,133);
+    color: white;
+  }
+
+  .button input{
+    border-radius: 20px;
+    display: inline-block;
+   font-size:18px;
+   font-weight:bold;
+   padding: 40px 20px;
+   /* text-transform:uppercase; */
+   text-decoration:none;
+   height:auto;
+   width:auto;
+   text-align:center;
+   background-color:#fff;
+   color: #52479b;
+   opacity: .5;
+  }
+
+
+  
+
+ 

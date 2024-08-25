@@ -1,0 +1,20 @@
+
+
+.experience-section{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: left;
+    font-size: 14px;
+     /* padding:60px; */
+    height: 50px;
+    color: white;
+    
+}
+.experience-section p{
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    /* margin-top: 3000px; */
+    padding: 17PX;
+
+}
